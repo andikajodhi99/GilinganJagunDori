@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warnabg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/ic_form_3"
+        android:text="MASUK SEBAGAI"
+        android:layout_marginTop="180dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/jagung"
+            android:layout_marginTop="88dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_masuk_pemilik_login_pilih"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="90dp"
+                android:textStyle="bold"
+                android:text="PEMILIK GILINGAN"
+                android:background="@drawable/ic_form_2"/>
+            <Button
+                android:id="@+id/btn_masuk_pemesan_login_pilih"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:text="PEMESAN GILINGAN"
+                android:background="@drawable/ic_form_2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/rumput"
+        />
+
+</LinearLayout>
